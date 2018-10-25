@@ -1,1 +1,1 @@
-select * from user where id = ${id};
+select * from users where auth0_id = ${auth0Id};

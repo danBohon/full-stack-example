@@ -1,1 +1,2 @@
-insert into couches (user_id, name, ) values (${user_id}, ${name}, ${price}, ${image})
+insert into couches (user_id, name, price, image) values
+(${user_id}, ${name}, ${price}, ${image}) returning *;
