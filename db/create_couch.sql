@@ -1,0 +1,1 @@
+insert into couches (user_id, name, ) values (${user_id}, ${name}, ${price}, ${image})
