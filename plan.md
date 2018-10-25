@@ -32,7 +32,7 @@
 
 * routes themselves
     * / (home)
-    * /cool couches
+    * /cool-couches
     * /profile
     * /cart?
 * index.js BrowserRouter
