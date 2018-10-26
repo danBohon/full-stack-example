@@ -1,6 +1,6 @@
 module.exports = {
     getCouches: (req, res) => {
-        req.res.get('db').get_couches().then(couches => {
+        req.app.get('db').get_couches().then(couches => {
             res.json(couches);
         }).catch(error => {
             console.error('error in getCouches', error);

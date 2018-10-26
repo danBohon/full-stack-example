@@ -17,6 +17,8 @@ app.use(session({
 
 massive(process.env.CONNECTION_STRING).then(database => {
     app.set('db', database);
+    console.log('database connectin ');
+    
 }).catch(error => {
     console.log('error with massive', error);
 })
